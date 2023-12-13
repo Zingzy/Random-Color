@@ -1,5 +1,6 @@
 # 🌈 Random Color Generator
 
+![image](https://github.com/Zingzy/Random-Color/assets/90309290/8f85d3c4-cf9e-4f15-b4ce-697b4705b66c)
 
 ## ℹ️ Project Description
 
