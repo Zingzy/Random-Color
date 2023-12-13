@@ -1,5 +1,6 @@
 # 🌈 Random Color Generator
 
+![image](https://github.com/Zingzy/Random-Color/assets/90309290/8f85d3c4-cf9e-4f15-b4ce-697b4705b66c)
 
 ## ℹ️ Project Description
 
@@ -37,4 +38,8 @@ git clone https://github.com/Zingzy/Random-Color.git
 >
 > Click on the button or press the spacebar again to generate a new color. 🎨
 >
+<<<<<<< HEAD
 > Enjoy the vibrant world of random colors! 🎉
+=======
+> Enjoy!
+>>>>>>> 9d7e70035ed37edac7def49d5f0c97e80fd53ec6
