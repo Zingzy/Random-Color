@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Random Color Generator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="color">
+        <div id="color-name"></div>
+        <div id="hex-value"></div>
+        <div id="rgb-value"></div>
+        <div id="hsl-value"></div>
+
+        <div class="button-upper">
+            <button class="buttons" onclick="updateColor()">Generate color</button>
+            <button class="buttons" onclick="copy_all()">Copy all format</button>
+        </div>
+    </div>
+    <div id="notification">Copied to Clipboard!</div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

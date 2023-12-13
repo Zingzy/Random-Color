@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    width: 100dvw;
+    height: 100dvh;
+    overflow: hidden;
+}
+
+#color {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#hex-value,
+#rgb-value,
+#hsl-value,
+#color-name {
+    padding: 15px;
+    font-size: 36px;
+    text-align: center;
+    font-family: monospace;
+    transition: all 0.2s ease-in-out;
+}
+
+#color-name {
+    font-size: 40px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+#hex-value,
+#rgb-value,
+#hsl-value {
+    cursor: pointer;
+}
+
+#hex-value:hover,
+#rgb-value:hover,
+#hsl-value:hover {
+    transform: scale(1.05);
+}
+
+.button-upper {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.buttons {
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    font-family: "Montserrat", sans-serif;
+}
+
+.buttons:hover {
+    transform: scale(1.05);
+}
+
+#notification {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    display: none;
+    font-family: "Montserrat", sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+    #hex-value,
+    #rgb-value,
+    #hsl-value,
+    #color-name {
+        font-size: 24px;
+    }
+
+    #color-name {
+        font-size: 28px;
+    }
+
+    .buttons {
+        font-size: 16px;
+    }
+
+    #notification {
+        font-size: 16px;
+    }
+}
