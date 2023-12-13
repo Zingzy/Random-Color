@@ -38,8 +38,5 @@ git clone https://github.com/Zingzy/Random-Color.git
 >
 > Click on the button or press the spacebar again to generate a new color. 🎨
 >
-<<<<<<< HEAD
 > Enjoy the vibrant world of random colors! 🎉
-=======
-> Enjoy!
->>>>>>> 9d7e70035ed37edac7def49d5f0c97e80fd53ec6
+>
